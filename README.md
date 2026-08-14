@@ -470,79 +470,7 @@ Tests should cover:
 
 ---
 
-# 18. Recommended Verification Before Submission
-
-Run these commands one by one.
-
-## 1. Fresh Database
-
-```bash
-php artisan migrate:fresh --seed
-```
-
-## 2. Start Laravel
-
-```bash
-php artisan serve
-```
-
-## 3. Start Frontend
-
-In another terminal:
-
-```bash
-npm run dev
-```
-
-## 4. Verify API
-
-Open:
-
-```text
-http://127.0.0.1:8000/api/clients
-```
-
-## 5. Open Frontend
-
-Open:
-
-```text
-http://127.0.0.1:8000
-```
-
-## 6. Test Monitoring
-
-```bash
-php artisan websites:monitor
-```
-
-## 7. Check Scheduler
-
-```bash
-php artisan schedule:list
-```
-
-## 8. Run Scheduler
-
-```bash
-php artisan schedule:work
-```
-
-## 9. Run Tests
-
-```bash
-php artisan test
-```
-
-## 10. Build Frontend
-
-```bash
-npm run build
-```
-
----
-
-# 19. Error Handling
+# 18. Error Handling
 
 The monitoring process handles:
 
@@ -557,7 +485,7 @@ A failure for one website should not stop the remaining websites from being chec
 
 ---
 
-# 20. Useful Commands
+# 19. Useful Commands
 
 ## Laravel
 
