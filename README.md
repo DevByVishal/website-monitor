@@ -113,12 +113,7 @@ If seed data is available:
 
 ```bash
 php artisan db:seed
-```
-
-Or:
-
-```bash
-php artisan migrate --seed
+php artisan db:seed --class=ClientSeeder
 ```
 
 For a completely fresh local database:
